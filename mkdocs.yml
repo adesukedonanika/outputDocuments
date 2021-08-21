@@ -2,8 +2,8 @@ site_name: geoSiteYamaguchi
 site_url: http://140.227.176.133
 
 theme:
-  language: ja
-  name: bootswatch
+- language: ja
+- name: bootswatch
 
 nav:
 - Home: 'index.md'
