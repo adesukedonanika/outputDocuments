@@ -1,20 +1,13 @@
-site_name: geoSiteYamaguchi
+site_name: 地図サイトを作ってみる
 site_url: http://140.227.176.133
 
 theme:
-- language: ja
-- name: bootswatch
+  language: ja
+  name: minty
+  nav_style: dark
 
 nav:
-- Home: 'index.md'
-- geodjango: 'geodjango.md'
-- infra: 'infra.md'
+- サイト説明: 'index.md'
+- Django設定: 'geodjango.md'
+- インフラ: 'infra.md'
 - お問い合わせ: 'about.md'
-
-
-# タブ付きコンテンツ
-- pymdownx.tabbed
-# スーパーフェンス機能
-- pymdownx.superfences
-# アラート装飾
-- admonition
