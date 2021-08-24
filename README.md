@@ -2,9 +2,16 @@
 
 
 ## Deploy html Files 
-### Env CentOS Stream8 Apache
-
+Env CentOS Stream8 Apache
+Apache deploy command
 
 ```terminal
-cp -r docs/site/* /var/www/html
+git clone https://github.com/adesukedonanika/outputDocuments.git
+
+cd outputDocuments
+
+mkdocs build
+
+sudo cp -r site/* /var/www/html
 ```
+
